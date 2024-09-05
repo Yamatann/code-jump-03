@@ -19,6 +19,23 @@ header {
     align-items: center; /* 縦方向を中央に配置 */
 }
 
+/* 全てのリンクのデフォルトスタイルをリセット */
+a {
+    text-decoration: none; /* 下線を削除 */
+    color: inherit; /* テキストの色を親要素に合わせる */
+}
+
+/* ヘッダー内の特定のリンクにスタイルを適用 */
+header a {
+    text-decoration: none; /* 下線を消す */
+    color: black; /* 色を黒に変更（任意の色に変更可） */
+}
+
+/* ホバー時に色や下線を変えたい場合 */
+header a:hover {
+    opacity: 0.7;
+}
+
 .header-list ul {
     display: flex;
 }
