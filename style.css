@@ -240,6 +240,10 @@ footer {
         height: auto; /* アスペクト比を保持しつつ高さを自動調整 */
     }
 
+    #news div {
+        display: block;
+    }
+
     #contact dl {
         display: block;
     }
